@@ -6,7 +6,9 @@ systemmonitor_project/
 │   └── main.py
 ├── README.md
 └── diagram.png
+## 📊 Systemarkitektur
 
+![Systemdiagram](diagram.png)
 ## Beskrivning
 Detta projekt är ett enkelt systemmonitor-program byggt i Python med Flet.
 
