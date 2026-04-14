@@ -116,3 +116,5 @@ Projektet kombinerar systemövervakning med grafiskt gränssnitt
 Jag har lärt mig att använda Flet för GUI och psutil för systemdata
 
 En utmaning var att hantera automatisk uppdatering utan att programmet fryser
+
+Diagrammet visar hur data hämtas från systemet via psutil och bearbetas innan den visas i användargränssnittet.
