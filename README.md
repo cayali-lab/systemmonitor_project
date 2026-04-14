@@ -2,6 +2,20 @@
 
 
 
+\## Struktur
+
+systemmonitor\_project/
+
+├── src/
+
+│   └── main.py
+
+├── README.md
+
+└── diagram.png
+
+
+
 \## Beskrivning
 
 Detta projekt är ett enkelt systemmonitor-program byggt i Python med Flet.
@@ -24,6 +38,22 @@ Informationen kan uppdateras automatiskt och visas i ett grafiskt gränssnitt.
 
 
 
+
+
+Funktioner (upgrade):
+
+
+
+Realtids CPU- och RAM-övervakning
+
+Automatisk uppdatering var 2:e sekund
+
+Temperatur simulering
+
+Färgkodad statusindikator
+
+
+
 \---
 
 
@@ -36,7 +66,7 @@ Informationen kan uppdateras automatiskt och visas i ett grafiskt gränssnitt.
 
 ```powershell
 
-.\\.venv\\Scripts\\Activate.ps1
+.\\\\.venv\\\\Scripts\\\\Activate.ps1
 
 
 
@@ -83,6 +113,7 @@ En utmaning var att strukturera projektet steg för steg och att få automatisk 
 
 
 Genom projektet har jag fått bättre förståelse för Python, GUI-programmering, Git och hur ett projekt utvecklas iterativt.
+
 
 
 
