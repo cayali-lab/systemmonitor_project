@@ -7,6 +7,7 @@ systemmonitor_project/
 ├── README.md
 └── diagram.png
 ## 📊 Systemarkitektur
+Diagrammet visar hur systemet hämtar, bearbetar och visar data i realtid.
 
 ![Systemdiagram](diagram.png)
 ## Beskrivning
