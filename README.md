@@ -1,69 +1,35 @@
-\# System Monitor Project
+# System Monitor Project
 
-
-
-\## Struktur
-
-systemmonitor\_project/
-
+## Struktur
+systemmonitor_project/
 ├── src/
-
-│   └── main.py
-
+│   └── main.py
 ├── README.md
-
 └── diagram.png
 
-
-
-\## Beskrivning
-
+## Beskrivning
 Detta projekt är ett enkelt systemmonitor-program byggt i Python med Flet.
 
-
-
 Programmet visar grundläggande systeminformation som:
-
-\- CPU-användning
-
-\- RAM-användning
-
-\- Temperatur (simulerad)
-
-\- Statusindikator
-
-
+- CPU-användning
+- RAM-användning
+- Temperatur (simulerad)
+- Statusindikator
 
 Informationen kan uppdateras automatiskt och visas i ett grafiskt gränssnitt.
 
 
-
-
-
 Funktioner (upgrade):
-
-
-
 Realtids CPU- och RAM-övervakning
-
 Automatisk uppdatering var 2:e sekund
-
 Temperatur simulering
-
 Färgkodad statusindikator
 
+---
 
+## Hur man kör programmet
 
-\---
-
-
-
-\## Hur man kör programmet
-
-
-
-\### 1. Aktivera virtuell miljö
-
+### 1. Aktivera virtuell miljö
 ```powershell
 
 .\\\\.venv\\\\Scripts\\\\Activate.ps1
@@ -74,7 +40,16 @@ Beroenden
 
 Projektet använder följande tredjepartsbibliotek:
 
+
+
+
+Python
+
+
+
 Flet
+
+
 
 psutil
 
@@ -91,6 +66,22 @@ Visar temperatur
 Visar status med färg
 
 Uppdaterar information automatiskt
+
+
+
+
+
+uppgradering:
+
+Visar CPU- och RAM-användning i realtid
+
+Har progress bars för CPU och RAM
+
+Visar körtid och senaste uppdatering
+
+Läser temperatur på Linux om sensorer finns tillgängliga
+
+Visar färgkodad status och kritiska varningar
 
 
 
@@ -116,10 +107,12 @@ Genom projektet har jag fått bättre förståelse för Python, GUI-programmerin
 
 
 
+uppgradering:
 
 
 
+Projektet kombinerar systemövervakning med grafiskt gränssnitt
 
+Jag har lärt mig att använda Flet för GUI och psutil för systemdata
 
-
-
+En utmaning var att hantera automatisk uppdatering utan att programmet fryser
