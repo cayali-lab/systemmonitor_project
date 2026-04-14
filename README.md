@@ -10,6 +10,7 @@ systemmonitor_project/
 Diagrammet visar hur systemet hämtar data från datorn via psutil, bearbetar informationen och visar den i användargränssnittet i realtid.
 
 ![Systemdiagram](diagram.png)
+Figuren visar dataflödet från användaren till systemet och tillbaka till gränssnittet.
 ## Beskrivning
 Detta projekt är ett enkelt systemmonitor-program byggt i Python med Flet.
 
