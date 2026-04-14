@@ -7,7 +7,7 @@ systemmonitor_project/
 ├── README.md
 └── diagram.png
 ## 📊 Systemarkitektur
-Diagrammet visar hur systemet hämtar, bearbetar och visar data i realtid.
+Diagrammet visar hur systemet hämtar data från datorn via psutil, bearbetar informationen och visar den i användargränssnittet i realtid.
 
 ![Systemdiagram](diagram.png)
 ## Beskrivning
